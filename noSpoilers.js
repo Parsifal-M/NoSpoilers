@@ -1,0 +1,1 @@
+document.getElementById("secondary-inner").style.display = "none";
