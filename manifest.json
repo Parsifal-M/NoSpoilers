@@ -1,0 +1,23 @@
+{
+
+  "manifest_version": 2,
+  "name": "NoSpoilers!",
+  "version": "1.0",
+
+  "description": "Hides tecommended videos on Youtube as they always contain spoilers",
+  "homepage_url": "https://github.com/Pbodeh/NoSpoilers",
+
+  "icons": {
+    "48": "iconfinder_42-Wrong_3672675.png"
+    
+  },
+  
+  "permissions": [
+    "activeTab",
+    "contextMenus"
+  ],
+  
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
